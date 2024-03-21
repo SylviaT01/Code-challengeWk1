@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Student Grade Generator</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="box1">
+                <h1>Result</h1>
+                <div class="pgt">
+                    <h2>percentage - <span class="prt"></span></h2>
+                    <h2>grade - <span class="grd"></span></h2>
+                    <h2>total - <span class="ttl"></span></h2>
+                </div>
+            </div>
+            <div class="content">
+                <div class="box2">
+                    <input type="number" id="ift" placeholder="Informatics" />
+                    <input type="number" id="dst" placeholder="Data Structures" />
+                    <input type="number" id="math" placeholder="Mathematics" />
+                    <input type="number" id="cls" placeholder="Calculus" />
+                    <input type="number" id="dsi" placeholder="Data science" />
+                    <button type="button" onclick="calculateGrade()">Calculate Grade</button>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </section>
+    <section>
+        <footer>
+            
+                <p>&copy; Sylvia Chebet.All Rights Reserved</p>
+            
+        </footer>
+    </section>
+</body>
+
+</html>

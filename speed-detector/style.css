@@ -21,14 +21,13 @@ body{
     box-shadow: 0px 10px 10px 0px black;
     border-radius: 10px;
 }
-
-.pack h2{
+.content{
     display: flex;
-    font-size: 1rem;
-    font-weight: 500;
-    margin: 20px 0px;
+    justify-content: center;
+    align-items: center;
+
 }
-.content .pack{
+.pack{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,19 +35,25 @@ body{
     min-width: 70vw;
     min-height: 60vh;
 }
-.pack2 input{
-    margin: 15px 0px;
-    width: 200px;
+.pack h2{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.pack input{
+    margin: 15px;
+    width: 400px;
     height: 30px;
     padding: 10px;
     border: 0;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    border-radius: 10px;
 }
-.pack2 button{
+.pack button{
     height: 40px;
     width: 150px;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 20px;
     background-color: rgb(84, 206, 214);
     color: black;
     border: 0;

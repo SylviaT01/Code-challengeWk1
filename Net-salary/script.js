@@ -75,5 +75,5 @@ function calculateSalary() {
     const netSalary = calculateNetSalary(basicSalary, benefits);
     
     const resultDiv = document.querySelector("#result");
-    resultDiv.textContent = "Net Salary: " + netSalary.toFixed(2).
+    resultDiv.textContent = "Net Salary: " + Math.ceil(netSalary);
 }

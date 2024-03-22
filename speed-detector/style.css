@@ -1,0 +1,80 @@
+*{
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body{
+    
+    min-height: 100vh;
+    background-color: antiquewhite;
+    display: grid;
+    place-content: center;
+}
+.container{
+    background-color: rgb(172, 216, 203);
+    width: 600px;
+    height: 400px;
+    box-shadow: 0px 10px 10px 0px black;
+    border-radius: 10px;
+}
+.pack1{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(173, 222, 241);
+    border-radius: 10px 0px 0px 10px;
+}
+.pack1 h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: black;
+}
+.part{
+    text-align: center;
+    display: grid;
+    place-content: center;
+    min-height: 30vh;
+}
+.part h2{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.content .pack2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 70vw;
+    min-height: 60vh;
+}
+.pack2 input{
+    margin: 15px 0px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    border: 0;
+    font-size: 0.9rem;
+}
+.pack2 button{
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(84, 206, 214);
+    color: black;
+    border: 0;
+    outline: none;
+    font-size: medium;
+    font-weight: 900;
+    border-radius: 30px;
+    cursor: pointer;
+}
+

@@ -12,3 +12,22 @@ body{
     display: grid;
     place-content: center;
 }
+.container{
+    width: 600px;
+    height: 400px;
+    box-shadow: 0px 10px 10px 0px black;
+    border-radius: 10px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 70vw;
+    min-height: 60vh;
+}

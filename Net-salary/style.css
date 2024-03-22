@@ -17,6 +17,7 @@ body{
     height: 400px;
     box-shadow: 0px 10px 10px 0px black;
     border-radius: 10px;
+    background-color: aquamarine;
 }
 .content{
     display: flex;
@@ -30,4 +31,33 @@ body{
     align-items: center;
     min-width: 70vw;
     min-height: 60vh;
+}
+.box h1{
+    display: flex;
+    font-weight: bold;
+    font-size: larger;
+    margin: 20px 0px;
+
+}
+.box input{
+    margin: 15px;
+    width: 450px;
+    height: 30px;
+    padding: 10px;
+    border: 0;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.box button{
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: rgb(216, 244, 247);
+    color: black;
+    border: 0;
+    outline: none;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 30px;
+    cursor: pointer;
 }

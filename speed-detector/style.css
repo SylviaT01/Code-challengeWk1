@@ -8,14 +8,14 @@
     text-transform: capitalize;
 }
 body{
-    
+    background-image: url(https://img.freepik.com/free-photo/gypsophila-leaves-corner-blue-background_23-2148048408.jpg?t=st=1711112529~exp=1711116129~hmac=fca71b7152dcaf2c0cc13075d701da83a531ac8306bc51d8a2ac0f73c5a4c18f&w=740);  
     min-height: 100vh;
     background-color: antiquewhite;
     display: grid;
     place-content: center;
 }
 .container{
-    background-color: rgb(172, 216, 203);
+    background-color: rgb(240, 233, 225);
     width: 600px;
     height: 400px;
     box-shadow: 0px 10px 10px 0px black;
@@ -37,8 +37,8 @@ body{
 }
 .pack h2{
     display: flex;
-    font-size: 1rem;
-    font-weight: 500;
+    font-weight: bold;
+    font-size: larger;
     margin: 20px 0px;
 }
 .pack input{
@@ -51,16 +51,34 @@ body{
     border-radius: 10px;
 }
 .pack button{
-    height: 40px;
+    height: 30px;
     width: 150px;
     margin-top: 20px;
-    background-color: rgb(84, 206, 214);
+    background-color: rgb(203, 237, 240);
     color: black;
     border: 0;
     outline: none;
     font-size: medium;
-    font-weight: 900;
+    font-weight: 500;
     border-radius: 30px;
     cursor: pointer;
 }
+footer{
+    height: 50px;
+    background-color: rgb(179, 240, 240);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    }
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}    
 

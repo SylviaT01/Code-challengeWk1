@@ -11,17 +11,13 @@
 
 <body>
     <div class="container">
-        <div class="pack1">
-            <h1>Output</h1>
-            <div class="part">
-                <h2>printReport - <span class="rpt"></span></h2>
-                <h2>Points - <span class="pts"></span></h2>
-            </div>
-        </div>
+
         <div class="content">
-            <div class="pack2">
+            <div class="pack">
+                <h2>Speed Detector</h2>
                 <input type="number" id="spd" placeholder="speed" />
-                <button type="button" onclick="demeritPoints">Demerit points</button>
+                <button type="button" onclick="calculatePoints()">Calculate points</button>
+                <p id="result"></p>
             </div>
         </div>
     </div>

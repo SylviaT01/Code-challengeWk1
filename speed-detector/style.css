@@ -1,4 +1,4 @@
-*{
+* {
     font-family: "Poppins", sans-serif;
     list-style-type: none;
     text-decoration: none;
@@ -7,27 +7,31 @@
     box-sizing: border-box;
     text-transform: capitalize;
 }
-body{
-    background-image: url(https://img.freepik.com/free-photo/gypsophila-leaves-corner-blue-background_23-2148048408.jpg?t=st=1711112529~exp=1711116129~hmac=fca71b7152dcaf2c0cc13075d701da83a531ac8306bc51d8a2ac0f73c5a4c18f&w=740);  
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/gypsophila-leaves-corner-blue-background_23-2148048408.jpg?t=st=1711112529~exp=1711116129~hmac=fca71b7152dcaf2c0cc13075d701da83a531ac8306bc51d8a2ac0f73c5a4c18f&w=740);
     min-height: 100vh;
-    background-color: antiquewhite;
+
     display: grid;
     place-content: center;
 }
-.container{
-    background-color: rgb(240, 233, 225);
+
+.container {
+    background-color: rgb(219, 232, 243);
     width: 600px;
     height: 400px;
     box-shadow: 0px 10px 10px 0px black;
     border-radius: 10px;
 }
-.content{
+
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.pack{
+
+.pack {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,13 +39,15 @@ body{
     min-width: 70vw;
     min-height: 60vh;
 }
-.pack h2{
+
+.pack h2 {
     display: flex;
     font-weight: bold;
     font-size: larger;
     margin: 20px 0px;
 }
-.pack input{
+
+.pack input {
     margin: 15px;
     width: 400px;
     height: 30px;
@@ -50,11 +56,12 @@ body{
     font-size: 1rem;
     border-radius: 10px;
 }
-.pack button{
+
+.pack button {
     height: 30px;
     width: 150px;
     margin-top: 20px;
-    background-color: rgb(203, 237, 240);
+    background-color: rgb(216, 244, 247);
     color: black;
     border: 0;
     outline: none;
@@ -63,9 +70,10 @@ body{
     border-radius: 30px;
     cursor: pointer;
 }
-footer{
+
+footer {
     height: 50px;
-    background-color: rgb(179, 240, 240);
+    background-color: rgb(196, 241, 241);
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -74,11 +82,11 @@ footer{
     left: 0;
     right: 0;
     padding: 10px;
-    }
+}
+
 footer p {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: small;
-}    
-
+}

@@ -1,30 +1,35 @@
-*{
+* {
     font-family: "Poppins", sans-serif;
     list-style-type: none;
     text-decoration: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-transform: capitalize; 
+    text-transform: capitalize;
 }
-body{
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/bunch-chrysanthemum-flowers-pink-background_23-2148048391.jpg?t=st=1711140078~exp=1711140678~hmac=956c131ed4543ca283682d413f57a62d61dde62f7181ee07c2bf5f18d4f60c27);
     min-height: 100vh;
     display: grid;
     place-content: center;
 }
-.container{
+
+.container {
     width: 600px;
     height: 400px;
     box-shadow: 0px 10px 10px 0px black;
     border-radius: 10px;
-    background-color: aquamarine;
+    background-color: rgb(250, 234, 255);
 }
-.content{
+
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,14 +37,16 @@ body{
     min-width: 70vw;
     min-height: 60vh;
 }
-.box h1{
+
+.box h1 {
     display: flex;
     font-weight: bold;
     font-size: larger;
     margin: 20px 0px;
 
 }
-.box input{
+
+.box input {
     margin: 15px;
     width: 450px;
     height: 30px;
@@ -48,11 +55,12 @@ body{
     font-size: 1rem;
     border-radius: 10px;
 }
-.box button{
+
+.box button {
     height: 30px;
     width: 200px;
     margin-top: 20px;
-    background-color: rgb(216, 244, 247);
+    background-color: rgb(238, 217, 238);
     color: black;
     border: 0;
     outline: none;
@@ -60,4 +68,24 @@ body{
     font-weight: 500;
     border-radius: 30px;
     cursor: pointer;
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(86, 206, 253);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
 }

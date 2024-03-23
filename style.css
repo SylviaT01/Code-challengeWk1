@@ -1,0 +1,35 @@
+body{
+    background-image: url(https://img.freepik.com/premium-photo/white-christmas-decoration-snowflake-toy-blue-background-merry-christmas-happy-new-year_75163-1516.jpg);
+
+min-height: 100vh;
+}
+nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+a {
+    font-size: larger;
+    font-weight: 900;
+    color:rgb(8, 7, 6);
+}
+footer {
+    height: 50px;
+    background-color: rgb(196, 241, 241);
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 436px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}

@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url(https://img.freepik.com/free-photo/bunch-chrysanthemum-flowers-pink-background_23-2148048391.jpg?t=st=1711140078~exp=1711140678~hmac=956c131ed4543ca283682d413f57a62d61dde62f7181ee07c2bf5f18d4f60c27);
+    background-image: url(https://img.freepik.com/free-photo/plant-twig-with-many-flowers_23-2148031413.jpg?t=st=1711202021~exp=1711202621~hmac=3ced432e666d1889d5fcb135b657e1068846bd17a03ce825c6d36e5f00845739);
     min-height: 100vh;
     display: grid;
     place-content: center;
@@ -20,7 +20,7 @@ body {
     height: 400px;
     box-shadow: 0px 10px 10px 0px black;
     border-radius: 10px;
-    background-color: rgb(250, 234, 255);
+    background-color: rgb(136, 190, 156);
 }
 
 .content {
@@ -60,7 +60,7 @@ body {
     height: 30px;
     width: 200px;
     margin-top: 20px;
-    background-color: rgb(238, 217, 238);
+    background-color: rgb(208, 248, 240);
     color: black;
     border: 0;
     outline: none;
@@ -72,7 +72,7 @@ body {
 
 footer {
     height: 50px;
-    background-color: rgb(86, 206, 253);
+    background-color: rgb(170, 247, 234);
     margin-top: 10px;
     display: flex;
     justify-content: center;

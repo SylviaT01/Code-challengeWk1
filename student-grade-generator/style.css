@@ -1,5 +1,4 @@
 * {
-   
     font-family: "Poppins", sans-serif;
     list-style-type: none;
     text-decoration: none;
@@ -9,21 +8,26 @@
     text-transform: capitalize;
 }
 body{
+    /*Set background image and style */
     background-image: url(https://img.freepik.com/free-photo/close-up-female-s-hand-holding-baby-s-breath-flowers-against-blue-background_23-2148048411.jpg?t=st=1711010144~exp=1711013744~hmac=820daf3393b1a622008a1b44b1dc0558943363533514b2078f19b7a7c866a2f3&w=740);
-    min-height: 100vh;
+    min-height: 100vh; 
     display: grid;
     place-content: center;
 
 
 }
+/* Container styles*/
 .container {
+    /* Set background color, width, height, shadow, and border radius */
     background-color: rgb(238, 225, 209);
     width: 800px;
     height: 400px;
     box-shadow: 0px 10px 10px 0px black;
     border-radius: 10px;
 }
+
 .box1 {
+    /* Set position, width, height, background color, and border radius */
     position: absolute;
     width: 250px;
     height: 400px;
@@ -31,6 +35,7 @@ body{
     border-radius: 10px 0px 0px 10px;
 }
 .box1 h1 {
+    /* Set styles for the heading */
     margin-top: 50px;
     text-align: center;
     font-size: 2.5rem;
@@ -38,18 +43,22 @@ body{
     letter-spacing: 3px;
     color:white;
 }
+/* Result Display Styles */
 .pgt{
+    /* Set styles for the result display */
     text-align: center;
     display: grid;
     place-content: center;
     min-height: 30vh;
 }
 .pgt h2{
+    /* Set styles for the result headings */
     font-size: 1rem;
     font-weight: 500;
     margin: 20px 0px;
 }
 .content .box2{
+    /* Set styles for the content box */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,6 +68,7 @@ body{
 }
 
 .box2 input{
+    /* Set styles for input fields */
     margin: 15px 0px;
     width: 300px;
     height: 30px;
@@ -67,6 +77,7 @@ body{
     font-size: 0.9rem;
 }
 .box2 button{
+    /* Set styles for button */
     height: 40px;
     width: 150px;
     margin-top: 10px;
@@ -81,6 +92,7 @@ body{
     cursor: pointer;
 }
 footer{
+    /* Set styles for the footer */
     height: 50px;
     background-color: rgb(86, 206, 253);
     margin-top: 10px;
@@ -93,6 +105,7 @@ footer{
     padding: 10px;
     }
     footer p{
+         /* Set styles for the footer text */
         display: flex;
         justify-content: center;
         align-items: center;

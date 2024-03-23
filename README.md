@@ -1,7 +1,8 @@
 # Code Challenge
 The code challenges entail Student Grade generator, Speed Detector and Net Salary Calculator.
 ## Get Started
-The Student Grade Calculator is basically a program that calculates the grades of students.The Speed Detector calculates the speed of the car and  the Net Salary calculator calculates individuals' net salary. The rograms were developed using:
+The Student Grade Calculator is basically a program that calculates the grades of students.
+The Speed Detector calculates the speed of the car and  the Net Salary calculator calculates individuals' net salary. The programs were developed using:
 - HTML
 - CSS
 - JavaScript

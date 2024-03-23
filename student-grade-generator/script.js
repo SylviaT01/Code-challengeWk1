@@ -1,3 +1,4 @@
+// Function to calculate grade
 function calculateGrade(){
     let ift = document.querySelector("#ift").value;
     let dst = document.querySelector("#dst").value;

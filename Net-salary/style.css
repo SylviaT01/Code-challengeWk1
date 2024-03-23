@@ -69,7 +69,14 @@ body {
     border-radius: 30px;
     cursor: pointer;
 }
-
+p{
+    font-size: smaller;
+    font-weight: 500;
+}
+.result{
+    font-size: small;
+    
+}
 footer {
     height: 50px;
     background-color: rgb(170, 247, 234);

@@ -65,7 +65,7 @@ function calculateNetSalary(basicSalary, benefits) {
     const payee = calculatePayee(grossSalary);
     const nhif = calculateNHIF(basicSalary);
     const nssf = calculateNSSF(basicSalary);
-    const netSalary = grossSalary - payee - nhif - nssf;
+    const netSalary = Math.round(grossSalary - payee - nhif - nssf);
     return netSalary;
 }
 
@@ -73,7 +73,11 @@ function calculateSalary() {
     const basicSalary = parseFloat(document.querySelector("#bsc").value);
     const benefits = parseFloat(document.querySelector("#ben").value);
     const netSalary = calculateNetSalary(basicSalary, benefits);
+    const nhif = calculateNHIF(basicSalary);
+    const nssf = calculateNSSF(basicSalary);
     
-    const resultDiv = document.querySelector("#result");
-    resultDiv.textContent = "Net Salary: " + Math.ceil(netSalary);
+    const resultDiv = document.querySelector(".result");
+    resultDiv.innerHTML = `Net Salary: Ksh ${netSalary}
+    <p>NHIF Deduction: Ksh ${nhif.toLocaleString({ maximumFractionDigits: 0 })}</p>
+    <p>NSSF Deduction: Ksh ${nssf.toLocaleString({ maximumFractionDigits: 0 })}</p>`
 }

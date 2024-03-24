@@ -71,7 +71,7 @@ function calculateNetSalary(basicSalary, benefits) {
     const netSalary = Math.round(grossSalary - payee - nhif - nssf);
     return netSalary;
 }
-// unction to handle the click event for calculating net salary
+// Function to handle the click event for calculating net salary
 function calculateSalary() {
     // Get values of basic salary and benefits from input fields
     const basicSalary = parseFloat(document.querySelector("#bsc").value);

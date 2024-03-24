@@ -8,6 +8,7 @@
     box-sizing: border-box;
     text-transform: capitalize;
 }
+
 /* Body Styles */
 body {
     /* Set background image and style */
@@ -27,7 +28,7 @@ body {
 }
 
 .content {
-     /* Set styles for the content */
+    /* Set styles for the content */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,6 +63,7 @@ body {
     font-size: 1rem;
     border-radius: 10px;
 }
+
 /* Button styles */
 .box button {
     /* Set styles for the button */
@@ -77,15 +79,18 @@ body {
     border-radius: 30px;
     cursor: pointer;
 }
-p{
-    font-size: smaller;
-    font-weight: 500;
-}
-.result{
-    font-size: small;
 
+p {
+    font-size: smaller;
+    font-weight: 300;
 }
- /*Footer Styles  */
+
+.result {
+    font-size: small;
+    font-weight: 900;
+}
+
+/*Footer Styles  */
 footer {
     /* Set styles for the footer */
     height: 50px;
@@ -99,6 +104,7 @@ footer {
     right: 0;
     padding: 10px;
 }
+
 /* Footer text styles */
 footer p {
     /* Set styles for the footer text */

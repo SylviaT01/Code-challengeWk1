@@ -8,9 +8,9 @@ function calculateGrade() {
     let dsi = document.querySelector("#dsi").value;
     // Sum up the scores to get the total grade
     let ttl = parseFloat(ift) + parseFloat(dst) + parseFloat(math) + parseFloat(cls) + parseFloat(dsi);
-    //Get the percentage
+    // Get the percentage
     let prt = (ttl * 100) / 500;
-    //Determine grades based on percentage
+    // Determine grades based on percentage
     if (prt > 79) {
         document.querySelector(".grd").innerHTML = "A";
     } else if (prt >= 60 && prt <= 79) {

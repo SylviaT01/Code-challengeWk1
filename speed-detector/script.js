@@ -10,7 +10,6 @@ function calculatePoints() {
         const Points = Math.floor((spd - speedLimit) / 5) * demeritsPer5km;
         if (Points >= maxDemeritPoints) {
             document.querySelector("#result").innerText = "License suspended";
-            document.querySelector("#result").innerText = "Points: " + Points;
         } else {
             document.querySelector("#result").innerText = "Points: " + Points;
         }

@@ -1,4 +1,5 @@
-*{
+/* Reset CSS */
+* {
     font-family: "Poppins", sans-serif;
     list-style-type: none;
     text-decoration: none;
@@ -7,13 +8,18 @@
     box-sizing: border-box;
     text-transform: capitalize;
 }
-body{
-    background-image: url(https://img.freepik.com/free-photo/background-with-wildflowers-left_23-2147721623.jpg); 
+
+/* Body Styles */
+body {
+    /* Set background image and style */
+    background-image: url(https://img.freepik.com/free-photo/background-with-wildflowers-left_23-2147721623.jpg);
     display: grid;
     place-content: center;
 }
 
-.container{
+/* Container Styles */
+.container {
+    /* Set background color, width, height, shadow, border radius and margin-top */
     background-color: rgb(219, 232, 243);
     width: 600px;
     height: 400px;
@@ -21,13 +27,17 @@ body{
     border-radius: 10px;
     margin-top: 30px;
 }
+
 .content {
+    /* Set styles for content */
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.box{
+
+.box {
+    /* Set styles for box */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,23 +45,28 @@ body{
     min-width: 70vw;
     min-height: 60vh;
 }
-.box h1{
+
+.box h1 {
+    /* Set styles for the heading inside the box */
     font-size: larger;
     font-weight: 700;
     color: rgb(3, 3, 3);
 }
-nav ul li{
+
+nav ul li {
+    /* Set styles for the navbar links */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
+
 a {
     font-size: large;
-    color:rgb(136, 136, 218);
+    color: rgb(136, 136, 218);
 }
 
-footer{
+footer {
     /* Set styles for the footer */
     height: 50px;
     background-color: rgb(194, 230, 245);
@@ -63,12 +78,12 @@ footer{
     left: 0;
     right: 0;
     padding: 10px;
-    }
-    footer p{
-         /* Set styles for the footer text */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: small;
-    }
-    
+}
+
+footer p {
+    /* Set styles for the footer text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}

@@ -13,7 +13,7 @@ function calculateGrade() {
     //Determine grades based on percentage
     if (prt > 79) {
         document.querySelector(".grd").innerHTML = "A";
-    } else if (prt > 60 && prt <= 79) {
+    } else if (prt >= 60 && prt <= 79) {
         document.querySelector(".grd").innerHTML = "B";
     } else if (prt > 49 && prt <= 59) {
         document.querySelector(".grd").innerHTML = "C";

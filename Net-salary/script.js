@@ -1,3 +1,4 @@
+// Function to calculate PAYE tax based on gross salary
 function calculatePayee(grossSalary) {
     let payee = 0;
     if (grossSalary <= 24000) {
@@ -19,7 +20,7 @@ function calculatePayee(grossSalary) {
     }
     return payee;
 }
-
+// Function to calculate NHIF deduction based on basic salary
 function calculateNHIF(basicSalary) {
     let nhif = 0;
     if (basicSalary <= 5999) {
@@ -55,27 +56,32 @@ function calculateNHIF(basicSalary) {
     }
     return nhif;
 }
-
+// Function to calculate NSSF deduction based on basic salary
 function calculateNSSF(basicSalary) {
     return Math.min(0.06 * basicSalary, 6000);
 }
-
+// Function to calculate net salary based on basic salary and benefits
 function calculateNetSalary(basicSalary, benefits) {
+    // Calculate gross salary by adding basic salary and benefits
     const grossSalary = basicSalary + benefits;
+    // Calculate PAYE, NHIF, and NSSF deductions
     const payee = calculatePayee(grossSalary);
     const nhif = calculateNHIF(basicSalary);
     const nssf = calculateNSSF(basicSalary);
     const netSalary = Math.round(grossSalary - payee - nhif - nssf);
     return netSalary;
 }
-
+// unction to handle the click event for calculating net salary
 function calculateSalary() {
+    // Get values of basic salary and benefits from input fields
     const basicSalary = parseFloat(document.querySelector("#bsc").value);
     const benefits = parseFloat(document.querySelector("#ben").value);
+    // Calculate net salary using the calculateNetSalary function
     const netSalary = calculateNetSalary(basicSalary, benefits);
+    // Calculate NHIF and NSSF deductions
     const nhif = calculateNHIF(basicSalary);
     const nssf = calculateNSSF(basicSalary);
-    
+    // Display the result in the result div
     const resultDiv = document.querySelector(".result");
     resultDiv.innerHTML = `Net Salary: Ksh ${netSalary}
     <p>NHIF Deduction: Ksh ${nhif.toLocaleString({ maximumFractionDigits: 0 })}</p>

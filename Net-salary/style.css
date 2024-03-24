@@ -1,3 +1,4 @@
+/* Reset CSS */
 * {
     font-family: "Poppins", sans-serif;
     list-style-type: none;
@@ -7,8 +8,9 @@
     box-sizing: border-box;
     text-transform: capitalize;
 }
-
+/* Body Styles */
 body {
+    /* Set background image and style */
     background-image: url(https://img.freepik.com/free-photo/plant-twig-with-many-flowers_23-2148031413.jpg?t=st=1711202021~exp=1711202621~hmac=3ced432e666d1889d5fcb135b657e1068846bd17a03ce825c6d36e5f00845739);
     min-height: 100vh;
     display: grid;
@@ -16,6 +18,7 @@ body {
 }
 
 .container {
+    /* Set background color, width, height, shadow, and border radius */
     width: 600px;
     height: 400px;
     box-shadow: 0px 10px 10px 0px black;
@@ -24,12 +27,14 @@ body {
 }
 
 .content {
+     /* Set styles for the content */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .box {
+    /* Set styles for the box */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,6 +44,7 @@ body {
 }
 
 .box h1 {
+    /* Set styles for box heading */
     display: flex;
     font-weight: bold;
     font-size: larger;
@@ -47,6 +53,7 @@ body {
 }
 
 .box input {
+    /* Set styles for input fields */
     margin: 15px;
     width: 450px;
     height: 30px;
@@ -55,8 +62,9 @@ body {
     font-size: 1rem;
     border-radius: 10px;
 }
-
+/* Button styles */
 .box button {
+    /* Set styles for the button */
     height: 30px;
     width: 200px;
     margin-top: 20px;
@@ -75,9 +83,11 @@ p{
 }
 .result{
     font-size: small;
-    
+
 }
+ /*Footer Styles  */
 footer {
+    /* Set styles for the footer */
     height: 50px;
     background-color: rgb(170, 247, 234);
     margin-top: 10px;
@@ -89,8 +99,9 @@ footer {
     right: 0;
     padding: 10px;
 }
-
+/* Footer text styles */
 footer p {
+    /* Set styles for the footer text */
     display: flex;
     justify-content: center;
     align-items: center;

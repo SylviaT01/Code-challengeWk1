@@ -28,7 +28,7 @@ This program calculates an individual's net salary based on their basic salary a
 ## Requirements
 - Basic programming knowledge, HTML and JavaScript
 - Visual Studio as code editor
-## Contributing
+## Contributions
 Contributions to the projects are welcome. Email me at [sylviachebet03@gmail.com]
 ## Author
 Created by [Sylvia Chebet].

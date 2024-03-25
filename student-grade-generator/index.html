@@ -26,11 +26,11 @@
             <div class="content">
                 <div class="box2">
                     <!--Input subjects-->
-                    <input type="number" id="ift" placeholder="Informatics" />
-                    <input type="number" id="dst" placeholder="Data Structures" />
-                    <input type="number" id="math" placeholder="Mathematics" />
-                    <input type="number" id="cls" placeholder="Calculus" />
-                    <input type="number" id="dsi" placeholder="Data science" />
+                    <input type="number" id="ift" placeholder="Informatics" min="0" max="100"/>
+                    <input type="number" id="dst" placeholder="Data Structures" min="0" max="100"/>
+                    <input type="number" id="math" placeholder="Mathematics" min="0" max="100"/>
+                    <input type="number" id="cls" placeholder="Calculus" min="0" max="100"/>
+                    <input type="number" id="dsi" placeholder="Data science" min="0" max="100"/>
                     <!--Button to calculate grade-->
                     <button type="button" onclick="calculateGrade()">Calculate Grade</button>
                 </div>

@@ -6,6 +6,13 @@ function calculateGrade() {
     let math = document.querySelector("#math").value;
     let cls = document.querySelector("#cls").value;
     let dsi = document.querySelector("#dsi").value;
+
+//  // Check if inputs are within valid range (0-100)
+if (isNaN(ift) || ift === "" || ift < 0 || ift > 100 || isNaN(dst) || dst === "" || dst < 0 || dst > 100 || isNaN(math) || math === "" || math < 0 || math > 100 || isNaN(cls) || cls === "" || cls < 0 || cls > 100 || isNaN(dsi) || dsi === "" || dsi < 0 || dsi > 100  ) {
+    document.getElementById("error").innerText = "Please enter valid marks between 0 and 100.";
+    return false;
+}
+
     // Sum up the scores to get the total grade
     let ttl = parseFloat(ift) + parseFloat(dst) + parseFloat(math) + parseFloat(cls) + parseFloat(dsi);
     // Get the percentage
